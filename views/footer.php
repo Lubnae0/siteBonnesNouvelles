@@ -8,6 +8,7 @@
 			<p id="copyright">Mise en page d'après
 				<a href="http://www.alsacreations.com/tutoriels/">Alsacréations</a>
 			</p>
+			<p id="author">Edité par Oussama EL BOUENANI</p>
 		</div><!-- #pied -->
 	</div><!-- #global -->
 	</body>
