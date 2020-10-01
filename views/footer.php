@@ -9,6 +9,7 @@
 				<a href="http://www.alsacreations.com/tutoriels/">Alsacréations</a>
 			</p>
 			<p id="author">Edité par Oussama EL BOUENANI</p>
+                        <p id="author">Edité par Loubna eljattari</p>
 		</div><!-- #pied -->
 	</div><!-- #global -->
 	</body>
