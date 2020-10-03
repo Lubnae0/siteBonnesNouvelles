@@ -16,7 +16,7 @@
 				Un site de Bonnes Nouvelles
 			</h1>
 			<p class="sous-titre">
-				<strong>HE VINCI</strong>
+            <strong>HE VINCI</strong>
 				:: 1ère année du baccalauréat en informatique
 			</p>
 		</div><!-- entete -->
