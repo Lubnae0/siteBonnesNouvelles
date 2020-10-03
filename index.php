@@ -6,7 +6,14 @@
 	define('CHEMIN_VUES','views/');
     define('EMAIL','jeanluc.collinet@ipl.be');
 	$date = date("j/m/Y");
-	
+
+    $ini = parse_ini_file ( 'conf/conf.ini', FALSE,  INI_SCANNER_NORMAL);
+
+    define('BDD',$ini['db_name']);
+    define('USERNAME',$ini['db_user']);
+    define('PASSWORD',$ini['db_password']);
+
+
 	# Require des classes automatisé
 	function chargerClasse($classe) {
 		require 'models/' . $classe . '.class.php';
