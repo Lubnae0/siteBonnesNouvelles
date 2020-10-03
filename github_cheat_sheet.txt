@@ -1,0 +1,50 @@
+ *configurer l’outillage*
+git config --global user.name "[name]"  //définir le nom de l’auteur à utiliser pour tous les commits dans le repo courant
+
+git config --global user.email [email]  // définir l'émail de l’auteur à utiliser pour tous les commits dans le repo courant
+ 
+  *création de dépôts*
+git init  //Initialise un nouveau dépôt Git.
+
+git clone [url]  //télécharge un projet et son historique de version complet via son URL
+
+  *effectuer des changements*
+git status //liste de tous les fichiers nouveaux ou modifiés à commiter
+
+git add . | git add .. //ajouter toutes les modifications actuelles à la prochaine commite
+
+git commit -m "commit message" //ajouter un message de commite pour le fichier de déplacement (pour les fichiers de couleur verte)
+
+git commit -a //commite toutes les modifications locales dans les fichiers suivis
+
+git commit -am "commit message" //crée immédiatement un commit de tous les changements stagés et insère un message de commit contextuel.
+
+  *changements de groupe*
+git branch //Liste toutes les branches locales dans le dépôt courant et vérifier la branche dans laquelle vous vous situez
+
+git branch [nom-branche] //crée une nouvelle branche
+
+git checkout [nom-branche] //bascule vers la branche spécifiée et met à jour le répertoire de travail
+
+git checkout -b [nom-Branche] //bascule et créer une nouvelle branche avec ce nom
+
+git branch –d [nom-branche] //supprime la branche spécifiée
+
+git merge [branche] //fusionner une autre branche à la branche actuelle
+
+  *syncHhroniser les changements*
+git push [alias] [branche] //envoyer ses commits vers le dépôt distant sur une branch spécifique (publier les changements sur GitHub)
+
+git pull [alias] [nom-branche] //récupérer les changements effectués (utile quand plusieurs personnes développent en même temps)
+
+git merge [nom-de-depot]/[branche] //fusionne la branche du dépôt dans la branche locale courante
+
+
+
+
+
+
+
+
+
+
