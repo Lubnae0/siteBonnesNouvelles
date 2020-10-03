@@ -16,7 +16,7 @@
 				Un site de Bonnes Nouvelles
 			</h1>
 			<p class="sous-titre">
-				<strong>Institut Paul Lambin</strong>
+				<strong>Institut Paul Loubna</strong>
 				:: 1ère année du baccalauréat en informatique
 			</p>
 		</div><!-- entete -->
