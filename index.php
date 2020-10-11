@@ -49,6 +49,11 @@
         return new AccueilController();
     }
 
+    function caseFilms(){
+	    require_once ('controllers/FilmsController.php');
+	    return new FilmsController();
+    }
+
 	# Quelle action est demandée ?
 	switch($action) {
 		case 'genese':
@@ -59,7 +64,10 @@
 			break;
 		case 'contact':
 			$controller = caseContact();
-			break;	
+			break;
+        case 'films':
+            $controller = caseFilms();
+            break;
 		default: # Par défaut, le contrôleur de l'accueil est sélectionné
 			$controller = caseAccueil();
 			break;
